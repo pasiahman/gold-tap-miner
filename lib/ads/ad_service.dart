@@ -10,9 +10,9 @@ class AdService {
   RewardedAd? _rewardedAd;
   InterstitialAd? _interstitialAd;
 
-  static const _androidBannerTest = 'ca-app-pub-3940256099942544/6300978111';
-  static const _androidRewardedTest = 'ca-app-pub-3940256099942544/5224354917';
-  static const _androidInterstitialTest = 'ca-app-pub-3940256099942544/1033173712';
+  static const _androidBannerTest = 'ca-app-pub-2020758572528109/2490591640';
+  static const _androidRewardedTest = 'ca-app-pub-2020758572528109/8171816240';
+  static const _androidInterstitialTest = 'ca-app-pub-2020758572528109/8453364760';
   static const _iosBannerTest = 'ca-app-pub-3940256099942544/2934735716';
 
   String get bannerUnitId => Platform.isAndroid ? _androidBannerTest : _iosBannerTest;
